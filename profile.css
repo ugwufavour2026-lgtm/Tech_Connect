@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(100, 92, 80);
+    color: white;
+}
+
+h2 {
+    padding: 14px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.text {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.image {
+    border-radius: 100px;
+    padding: 12px;
+    height: auto;
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 0 0 15px black, 0 0 19px rgb(20, 29, 41);
+}
+.image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+button {
+    padding: 1rem;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(231, 231, 240);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+     box-shadow: 0 0 1px #00f7ff, 0 0 20px #00f7ff;
+     transition: all 0.3s ease;
+}
+.Btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p {
+    padding: 1rem;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    padding: 1.6rem;
+}
+a {
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+li {
+    list-style-type: none;
+    padding: 12px;
+}
